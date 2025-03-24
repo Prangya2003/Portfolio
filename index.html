@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- favicon -->
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/index.css"> 
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  
+  <!-- MAIN -->
+  <main>
+    
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="title">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/Prangya.png" alt="Prangya Jyoti Mohanty" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Prangya Jyoti Mohanty">Prangya Jyoti Mohanty</h1>
+          <p class="title">Web developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:prangya1712@gmail.com" class="contact-link">prangya1712@gmail.com</a>
+            </div>
+          </li>
+          <!-- <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:AuthorPhone" class="contact-link">AuthorPhone</a>
+            </div>
+          </li> -->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="17/13/2003">17<sup>th</sup> Dec 2003</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Koraput</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item" style="align-items: center;">
+            <a href="https://www.linkedin.com/in/prangya-jyoti-mohanty-284866280/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item" style="align-items: center;">
+            <a href="https://github.com/Prangya2003/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- main-content -->
+    <div class="main-content">
+
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            Aspiring Computer Science undergraduate with a solid foundation in programming languages and web
+            development.
+          </p>
+          <p> Eager to apply my skills in Python, Django, and web technologies to contribute to meaningful
+            projects, while gaining hands-on experience and enhancing my technical knowledge in the tech industry
+          </p>
+        </section>
+
+        <!-- service -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="50">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="50">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-writing.svg" alt="Content writing icon" width="50">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Writing</h4>
+                <p class="service-item-text">
+                  Writing professional content for newsletters , social media and websites;.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-entrepreneur.svg" alt="entrepreneur icon" width="50">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Entrepreneur</h4>
+                <p class="service-item-text">
+                  Working on a startup idea to solve real-world problems.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+      <!-- RESUME -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sunabeda Public School, Koraput</h4>
+              <span>2010 — 2020</span>
+              <p class="timeline-text">
+                Completed my high school education (Matriculation) in the ICSE Board securing an aggregate 89.5% .
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">MBS Public School, Bhubaneswar</h4>
+              <span>2020 - 2022</span>
+              <p class="timeline-text">
+                Completed my higher secondary education (Intermediate) in the CBSE Board with a focus on science and
+                mathematics securing an aggregate percentage of 92.5%
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Silicon University, Bhubaneswar</h4>
+              <span>2022 — 2026</span>
+              <p class="timeline-text">
+                Currently pursuing my Bachelor's degree in Computer Science and Engineering at Silicon University,
+                Bhubaneswar having current CGPA of 9.8.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash"></ion-icon>
+            </div>
+            <h3 class="h3">Hackathon Participation</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Smart India Hackathon</h4>
+              <span>2023 & 2024</span>
+              <p class="timeline-text">
+                Role: Idea Generator <br>
+                Led brainstorming sessions to identify problem
+                areas and conceptualized scalable solutions.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Inter-College Hackathons</h4>
+              <span>2022 - 2026</span>
+              <p class="timeline-text">
+                Role: Ideation and Frontend Designer. <br>
+                Ideated user-focused solutions and developed
+                an intuitive frontend prototype using HTML and
+                CSS.
+
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">Languages</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">English</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Hindi</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Odia</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <a href="./assets/PrangyaResume.pdf" download class="navbar-link">
+            <button class="dnldResume" type="submit" disabled data-dnldResume  >
+              <ion-icon name="download" ></ion-icon>
+              <span>Download Resume</span>
+            </button>
+          </a>
+        </section>
+
+      </article>
+
+      <!-- Skills -->
+      <article class="skills" data-page="skills">
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+        <section class="skill">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Programming Skills</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Soft Skills</button>
+            </li>
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Programming Skills</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Soft Skills</button>
+              </li>
+            </ul>
+          </div>
+          <ul class="skill-list">
+            <li class="skill-item active" data-filter-item data-category="Programming Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img width="1080" height="1080" src="https://img.icons8.com/color/1080/html-5--v1.png" alt="html-5--v1" loading="lazy">
+                </figure>
+                <h3 class="skill-title">HTML</h3>
+                <p class="skill-category">Web development</p>
+              </a>
+            </li>
+            <li class="skill-item active" data-filter-item data-category="Programming Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img width="1080" height="1080" src="https://img.icons8.com/color/1080/css3.png" alt="css3" loading="lazy">
+                </figure>
+                <h3 class="skill-title">CSS</h3>
+                <p class="skill-category">Web development</p>
+              </a>
+            </li>
+            <li class="skill-item active" data-filter-item data-category="Programming Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img width="1080" height="1080" src="https://img.icons8.com/ios-filled/1080/django.png" alt="django" loading="lazy">
+                </figure>
+                <h3 class="skill-title">Django</h3>
+                <p class="skill-category">Framework</p>
+              </a>
+            </li>
+
+            <li class="skill-item active" data-filter-item data-category="Programming Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img width="1080" height="1080" src="https://img.icons8.com/color/1080/c-programming.png" alt="c-programming" loading="lazy"/>
+                </figure>
+                <h3 class="skill-title">C</h3>
+                <p class="skill-category">Programming Language</p>
+              </a>
+            </li>
+            <li class="skill-item active" data-filter-item data-category="Programming Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img width="1080" height="1080" src="https://img.icons8.com/color/1080/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" loading="lazy">
+                </figure>
+                <h3 class="skill-title">JAVA</h3>
+                <p class="skill-category">Programming Language</p>
+              </a>
+            </li>
+            <li class="skill-item active" data-filter-item data-category="Programming Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img width="1080" height="1080" src="https://img.icons8.com/color/1080/python--v1.png" alt="python--v1" loading="lazy">
+                </figure>
+                <h3 class="skill-title">Python</h3>
+                <p class="skill-category">Programming Language</p>
+              </a>
+            </li>
+            
+            <li class="skill-item active" data-filter-item data-category="Programming Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img width="1080" height="1080" src="https://img.icons8.com/color/1080/git.png" alt="git" loading="lazy">
+                </figure>
+                <h3 class="skill-title">Git</h3>
+                <p class="skill-category">Tools & Technologies</p>
+              </a>
+            </li>
+            <li class="skill-item active" data-filter-item data-category="Programming Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/sql.png" alt="" >
+                </figure>
+                <h3 class="skill-title">SQL</h3>
+                <p class="skill-category">Tools & Technologies</p>
+              </a>
+            </li>
+
+            <!--Soft Skills-->
+            <li class="skill-item active" data-filter-item data-category="Soft Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Team.png" alt="Team" loading="lazy">
+                </figure>
+                <h3 class="skill-title">Team Collaboration</h3>
+              </a>
+            </li>                       
+            <li class="skill-item active" data-filter-item data-category="Soft Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/creative.jpg" alt="creative" loading="lazy">
+                </figure>
+                <h3 class="skill-title">Creativity</h3>
+              </a>
+            </li>
+            <li class="skill-item active" data-filter-item data-category="Soft Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/lead.jpg" alt="Leadership" loading="lazy">
+                </figure>
+                <h3 class="skill-title">Leadership</h3>
+              </a>
+            </li>
+            <li class="skill-item active" data-filter-item data-category="Soft Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/ethics.png" alt="work-ethics" loading="lazy">
+                </figure>
+                <h3 class="skill-title">Work Ethic</h3>
+              </a>
+            </li>
+            <li class="skill-item active" data-filter-item data-category="Soft Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/details.png" alt="detail" loading="lazy">
+                </figure>
+                <h3 class="skill-title">Attention to detail</h3>
+              </a>
+            </li>
+            <li class="skill-item active" data-filter-item data-category="Soft Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/adaptibility.jpg" alt="adaptibility" loading="lazy">
+                </figure>
+                <h3 class="skill-title">Adaptability</h3>
+              </a>
+            </li>
+            <li class="skill-item active" data-filter-item data-category="Soft Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/time.jpg" alt="time" loading="lazy">
+                </figure>
+                <h3 class="skill-title">Time Management</h3>
+              </a>
+            </li>
+            <li class="skill-item active" data-filter-item data-category="Soft Skills">
+              <a href="#">
+                <figure class="skill-img">
+                  <div class="skill-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images//Communication.png" alt="Communication" loading="lazy">
+                </figure>
+                <h3 class="skill-title">Communication</h3>
+              </a>
+            </li>
+           
+
+            
+          </ul>
+        </section>
+      </article>
+
+      <!-- Projects -->
+      <article class="projects" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Project</h2>
+        </header>
+        <section class="project-posts">
+          <ul class="project-posts-list">
+            <li class="project-post-item">
+              <a href="https://github.com/Prangya2003" target="_blank">
+                <figure class="project-banner-box">
+                  <img src="./assets/images/projects/snake.jpg" alt="project-1" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <div class="project-meta">
+                    <p class="project-category">Python</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-08-23">Aug 23, 2023</time>
+                  </div>
+                  <h3 class="h3 project-item-title">Snake Game</h3>
+                  <p class="project-text">
+                    Developed a classic Snake game using Python, implementing core game mechanics and interactive features.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="project-post-item">
+              <a href="https://github.com/Prangya2003/Echoes" target="_blank">
+                <figure class="project-banner-box">
+                  <img src="./assets/images/projects/Instagram.jpg" alt="project-2" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <div class="project-meta">
+                    <p class="project-category">Django, HTML, CSS</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-08-23">23 Aug 2024</time>
+                  </div>
+                  <h3 class="h3 project-item-title">Instagram clone</h3>
+                  <p class="project-text">
+                    Created an Instagram clone using Django with features like user authentication, photo uploads, likes, comments, messaging, and saving posts.
+
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="project-post-item">
+              <a href="https://github.com/Prangya2003/Recipe-sharing-website" target="_blank">
+                <figure class="project-banner-box">
+                  <img src="./assets/images/projects/Recipe.jpg" alt="Recipe_Sharing" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <div class="project-meta">
+                    <p class="project-category">Django, HTML, CSS</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-08-23">23 Aug 2024</time>
+                  </div>
+                  <h3 class="h3 project-item-title">Recipe-Sharing Website</h3>
+                  <p class="project-text">
+                    Created a dynamic recipe-sharing platform with user authentication, recipe CRUD operations, and a user-friendly interface.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3385.211671847723!2d85.80414801836018!3d20.350677647310725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1908e064769e73%3A0x9288172f3a98c7a4!2sSilicon%20University!5e1!3m2!1sen!2sin!4v1740680659024!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+          </figure>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- custom js link -->
+  <script src="./assets/js/index.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
